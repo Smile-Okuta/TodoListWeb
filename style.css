@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(248, 225, 185);
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    margin: 1% 2% 0% 0%;
+    
+}
+
+.welcome-nav{
+    padding-top: 3%;
+
+    display: flex;
+    align-items:normal;
+    gap: 45%;
+}
+
+.welcome-border{
+    background-color: rgb(231, 153, 9);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 0;
+    margin-right: 5%;
+    padding-right: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+.welcome-nav h1{
+    font-size: 30pt;
+    font-weight: 40px;
+    align-self: center;
+    padding-left: 8%;
+    padding-right:20%;
+    margin-right: 0;
+    text-shadow: 2px 2px 4px rgb(97, 97, 97);
+
+}
+
+.welcome-nav img{
+    width: 200px;
+    height: 150px;
+    justify-content: right;
+    margin: 1px;
+    border-radius: 50% 50%;
+    border-width: 10pt;
+    border-color: black;
+}
+.wrapper{
+    position: relative;
+    margin: 8% auto;
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 238, 238, 0.548);
+    background-position: center;
+    border-radius: 10%;
+    
+}
+
+.wrapper button{
+    gap: 5%;
+    border-radius: 5pt;
+    border-width: 3px;
+    padding: 10px 15px;
+    text-align:justify;
+    justify-content: space-between;
+    margin: auto;
+    background-position: center;
+    }
+.wrapper button a{
+    color: black;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+.logo{
+    position: absolute;
+    /* margin-top: 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 30%;
+}
+
